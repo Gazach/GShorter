@@ -1,0 +1,116 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 6% 19%;
+}
+.S-System {
+    background-color: #fff;
+    height: 45vh;
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: 0 0 5px 3px rgba(159, 159, 159, 0.2);
+    -moz-box-shadow: 0 0 5px 3px rgba(159, 159, 159, 0.2);
+    box-shadow: 0 0 5px 3px rgba(159, 159, 159, 0.2);
+    
+}
+.S-System > h3 {
+    text-align: center;
+    color: rgb(96, 96, 96);
+    padding-top: 50px;
+    font-size: x-large;
+}
+.Title {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(96, 96, 96);
+}
+.mainS {
+    margin: 0;
+    padding: 0;
+    display: flex;
+justify-content: center;    
+}
+.mainS > form > button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #3a4149;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+}                
+.mainS > form > button:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px rgb(215, 215, 215);
+}
+.mainS > form > input {
+    padding: 12px 180px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.Lbutton {
+    margin: 30px;
+    display: flex;
+    justify-content: center;    
+}
+.Lbutton > button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #3a4149;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+}                
+.Lbutton > button:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px rgb(215, 215, 215);
+}
+.info{
+    background-color: #fff;
+    height: 60vh;
+    margin: 0;
+    margin-top: 4%;
+    padding: 0;
+    -webkit-box-shadow: 0 0 5px 3px rgba(159, 159, 159, 0.2);
+    -moz-box-shadow: 0 0 5px 3px rgba(159, 159, 159, 0.2);
+    box-shadow: 0 0 5px 3px rgba(159, 159, 159, 0.2);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;   
+    text-align: center;
+}
+.info > div {
+    margin: 60px;
+
+}
+footer {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color:#3a4149;
+    color: white;
+    border-top: 10px solid #7e7e7e;
+}
+footer > p > a {
+
+    color: white;
+}
+footer > p {
+    padding: 19px;
+}
+.usernames{
+    margin: 30xp;
+    color: #3a4149;
+}

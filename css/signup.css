@@ -1,0 +1,80 @@
+body {
+    background-color: #e3f7f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+form{
+    width: 500px;
+    border: 2px solid #efefef;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+input {
+    display: block;
+    border: px solid #ccc;
+    width: 95%;
+    padding :10px;
+    margin: 10px auto;
+}
+label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+button {
+    float: left;
+    background-color: #57905b;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 100px;
+    cursor:pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #49784c;
+}
+button:active {
+    border-style: outset;
+  }
+a {
+    float: right;
+    color: #888;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ErrorAlert {
+    background-color: #e9596d;
+    color: rgb(249, 189, 189);
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+}
+.SuccessAlert {
+    background-color: #acf5c8;
+    color: rgb(65, 160, 106);
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+}
